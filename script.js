@@ -1,6 +1,8 @@
 function getFormvalue() {
     //Write your code here
-	const Fname = fname.value;
-	const Lname = lname.value;
+	event.preventDefault();
+	const Form = document.getElementById("form1");
+	const Fname = Form.fname.value;
+	const Lname = Form.lname.value;
 	alert(Fname+" "+Lname);
 }
